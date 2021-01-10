@@ -1,0 +1,24 @@
+/* ==UserStyle==
+@name          APOD Dracula
+@namespace     github.com/xnaas/stylus-apod-dracula
+@homepageURL   https://github.com/xnaas/stylus-apod-dracula
+@version       1.0.0
+@updateURL     https://raw.githubusercontent.com/xnaas/stylus-apod-dracula/master/stylus-apod-dracula.user.css
+@description   Adds Dracula color scheme to APOD.
+@author        xnaas
+==/UserStyle== */
+
+@-moz-document domain("apod.nasa.gov") {
+body {
+  background: #282a36;
+  color: #f8f8f2;
+}
+
+a {
+  color: #8be9fd;
+}
+
+a:visited {
+  color: #bd93f9;
+}
+}
